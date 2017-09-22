@@ -1,0 +1,109 @@
+.body-background{
+    background-image: url('https://static.pexels.com/photos/113726/pexels-photo-113726.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+}
+.page-margin{
+    margin: 4rem;
+    margin-left: 5rem;
+}
+.page-top-margin{
+    margin-top: 5rem;
+}
+.first-column-margin{
+    margin-left: 0rem;
+    margin-right: 4rem;
+}
+.column-margin{
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.card-section-margin{
+    margin: 20px; 
+}
+.section-margin{
+    margin: auto; 
+    margin-top:35px; 
+    margin-bottom:35px;
+}
+.first-section-padding{
+    padding: 3.5rem 1rem;
+}
+.section-padding{
+    padding: 20px;
+}
+.translucent-background{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.profile-pic{
+    border: 0px solid; cornsilk;  
+    border-radius:30%;
+    margin: auto;
+    display: block;
+    width:90%; 
+    max-width: 150px; 
+    height:auto;
+    align-self: center;
+}
+.text-shadow{
+    color: gray;
+    text-shadow: 2px 2px 5px black;
+}
+.align-text-center{
+    text-align: center;
+}
+.align-text-left{
+    text-align: left;
+}
+.card-container{
+    position: relative;
+    width: 100%;
+}
+.card-text-padding{
+    padding: 3rem;
+}
+.card-background-img{
+    max-width: 100%;
+    height: auto;
+}
+.card-colour-blue{
+    background-color: #008CBA;
+}
+.card-colour-green{
+    background-color: #1CBD1C;
+}
+.card-colour-orange{
+    background-color: orange;
+}
+.card-colour-pink{
+    background-color: pink;
+}
+.appear{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.appear:hover{
+    transition: .5s ease;
+}
+.appear-text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.with-hover-effect:hover .appear{
+    opacity: 1;
+}
+  

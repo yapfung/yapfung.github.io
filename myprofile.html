@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS & settings-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <!-- CSS for prevent reloading? -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css">
+    <link rel="stylesheet" href="prevent_reloading.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="myprofile.css">
+    <title>My Profile</title>
+</head>
+
+<body class="body-background">
+    <div class="container-fluid page-margin">
+        <div class="d-flex flex-md-row flex-column page-top-margin">
+            <div class="d-flex flex-column first-column-margin translucent-background col-md-3">
+                <div class="center-block align-self-center margin-auto first-section-padding">
+                    <img src="https://i.pinimg.com/736x/c5/25/62/c52562da945576ff079eca4aba782ac5--cute-koalas-baby-koalas.jpg" alt="profile picture"
+                        class="img-fluid center-block profile-pic"> <br>
+                    <br>
+                    <h1 class="align-text-center">Yap Fung</h1>
+                    <br>
+                    <h5 class="align-text-center">Basic Info</h5>
+                    <p class="">
+                        <ul class="fa-ul">
+                            <li><i class="fa fa-birthday-cake" aria-hidden="true"></i> &nbsp XX Month 1991</li>
+                            <li><i class="fa fa-male" aria-hidden="true"></i> &nbsp Male</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> &nbsp 9876543</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp abc@def.com</li>
+                            <li><i class="fa fa-home" aria-hidden="true"></i> &nbsp 123 Earth, Universe</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="align-self-center margin-auto justify-content-around section-padding">
+                    <h4>Contact Me</h4>
+                    <br>
+                    <form action="https://script.google.com/macros/s/AKfycbwObwcawUFBNyoLVXk2nXytS7er-OHbKCPskXwFQwnLcQ9v8g/exec" method="POST">
+                        <div class="form-group">
+                            <label for="name-id">Name</label>
+                            <input type="text" name="NAME" id="name-id" class="form-control" placeholder="Full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-id">Email</label>
+                            <input type="email" name="EMAIL" id="email-id" class="form-control" placeholder="email@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-id">Message</label>
+                            <textarea type="text" rows="4" name="MESSAGE" id="message-id" class="form-control" placeholder="Leave a message (maximum 250 words)"
+                                style="height: 150px" maxlength="250" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary my-btn form-control" id="submit-id">submit</button>
+                            <div class="alert alert-danger alert-dismissible fade in" hidden id="alert-id">
+                                <button type="button" class="close" id="close-id"><span>&times;</span></button> 
+                                Thank you!
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex flex-column column-margin col-md-4">
+                <div class="align-self-center margin-auto justify-content-around card-section-margin">
+                    <div class="card-container with-hover-effect">
+                        <img src="Education.jpg" alt="Education" class="image-fluid card-background-img">
+                        <div class="appear card-colour-blue card-text-padding">
+                            <h3>Qualifications</h3>
+                            <p>
+                                <ul>
+                                    <li>Bachelor of Science (Hons), <br>NUS, Singapore</li>
+                                    <li>Graduate Diploma in Meteorology, <br>BMTC, Australia                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="align-self-center margin-auto justify-content-around card-section-margin">
+                    <div class="card-container with-hover-effect">
+                        <img src="Interests.jpg" alt="Interests" class="image-fluid card-background-img">
+                        <div class="appear card-colour-orange card-text-padding">
+                            <h3>Interests</h3>
+                            <p>
+                                <ul>
+                                    <li>Musics</li>
+                                    <li>Travel</li>
+                                    <li>Day dream</li>
+                                    <li>Sleep</li>
+                                    <li>Coding, LOL</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column column-margin col-md-4">
+                <div class="align-self-center margin-auto justify-content-around card-section-margin">
+                    <div class="card-container with-hover-effect">
+                        <img src="Profession.jpg" alt="Profession" class="image-fluid card-background-img">
+                        <div class="appear card-colour-green card-text-padding">
+                            <h3>Occupation</h3>
+                            <p>
+                                <ul>
+                                    <li>Meteorologist</li>
+                                </ul>
+                            </p>
+                            <h3>Scope</h3>
+                            <p>
+                                <ul>
+                                    <li>Opreational weather forecasting for public, aviation and marine sectors</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="align-self-center margin-auto justify-content-around card-section-margin">
+                    <div class="card-container with-hover-effect">
+                        <img src="Relationship.jpg" alt="Relationship" class="image-fluid card-background-img">
+                        <div class="appear card-colour-pink card-text-padding">
+                            <h3>Status</h3>
+                            <p>
+                                <ul>
+                                    <li>Single?</li>
+                                    <li>Attached?</li>
+                                    <li>Engaged?</li>
+                                    <li>It's complicated</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- to prevent reloading -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script src="prevent_reloading.js" type="text/javascript"></script>
+</body>
+
+</html>
